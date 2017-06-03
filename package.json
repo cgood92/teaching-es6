@@ -1,0 +1,21 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "A playground to demonstrate ES6 concepts",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm test",
+    "test": "jest --watch"
+  },
+  "author": "Clint Goodman",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^20.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  }
+}

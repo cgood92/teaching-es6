@@ -4,11 +4,12 @@
   "description": "A playground to demonstrate ES6 concepts",
   "main": "index.js",
   "scripts": {
-    "start": "npm test",
+    "start": "jest --watchAll",
     "test": "jest --watch"
   },
   "author": "Clint Goodman",
   "license": "ISC",
+  "repository": "https://github.com/cgood92/teaching-es6.git",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
